@@ -1,0 +1,114 @@
+footer {
+    width: 100%;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.Footer-Wrap{
+    width: 100%;
+}
+
+/* 底圖處理 */
+footer .BG1{
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+footer .BG2{
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+/* 文字處裡-左*/
+footer .Info{
+    margin: 0px 18%;
+    padding: 35px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .Info p{
+    color: #000000;
+    line-height: 25px;
+}
+footer .Info p span{
+    font-weight: 800;
+    color: #000;
+}
+footer .Info_2{
+    margin: 15px 0px;
+}
+
+/* 圖片處理-右*/
+footer .Right{
+    display: flex;
+    align-items: center;
+    margin: 0px 30px;
+}
+footer .Icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .Right .Icon3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* 社群icon */
+footer .Right .Icon3 img{
+    width:45px;
+    margin: 20px 10px;
+    transition: 0.3s;
+}
+footer .Right .Icon3 img:hover{
+    transform: scale(1.15);
+    transition: 0.3s;
+}
+/* 浮聲如夢 */
+footer .Right .LogoImg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+footer .Right .LogoImg img{
+    width:140px;
+}
+
+/* copyright */
+footer .Copyright{
+    background-color: #000;
+}
+footer .Copyright{
+    padding: 25px 0px;
+}
+footer .Copyright p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ====== RWD ====== */
+@media (max-width:700px) {
+    footer .Info{
+        display: block;
+    }
+    footer .Info .Right{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    footer .Info .Left p{
+        margin: 10px 0px;
+    }
+    footer .Info .Right .Icon3 img{
+        margin: 0px 10px 10px 0px;
+        width: 35px;
+    }
+    footer .Right .LogoImg {
+        justify-content: start;
+    }
+    footer .Right .LogoImg img{
+        width: 130px;
+    }
+}

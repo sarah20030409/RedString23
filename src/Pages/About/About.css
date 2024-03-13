@@ -1,0 +1,170 @@
+.About-wrap{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.About-flex{
+    width: 100%;
+}
+.ForPadding{
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    background-color: #000;
+    box-shadow:0px 30px 20px #000 ;
+}
+
+/* === 浮聲如夢概念介紹樣式 === */
+.About-wrap .Section1{
+    display: flex;
+    justify-content: center top;
+}
+.About-wrap .Section1 .Background{
+    width: 100%;
+}
+
+/* 背景的設置 */
+.About-wrap .Section1 .BG{
+    background-attachment: fixed; /* 滾動視差 */
+    background-repeat: no-repeat;
+}
+.About-wrap .Section1 .BG-1{
+    background-size: 60%;
+    background-position: 100% 50px;
+    
+}
+.About-wrap .Section1 .BG-2{
+    background-size: contain;
+    background-position: center 300px;
+}
+.About-wrap .Section1 .BG-3{
+    background-size: 80%;
+    background-position: 0% 450px;
+    padding: 100px 30px;
+}
+
+/* 介紹區調整 */
+.About-wrap .Section1 .Info{
+    margin-bottom: 5%;
+}
+.About-wrap .Section1 .TitleImg{
+    display: flex; 
+    justify-content: center;
+}
+.About-wrap .Section1 .TitleImg img{
+    width: 200px;
+    padding: 50px 0px;
+}
+
+.About-wrap .Section1 .Info h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.About-wrap .Section1 .Info p{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+/* ======= 成員 ======= */
+.About-flex .MBG-3{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow:0px -30px 20px #000 ;
+}
+.About-flex .MBG-3 .MembersArea{
+    width:100%;
+}
+
+/* ----背景設置---- */
+.About-flex .Section2 .MBG-1{
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.About-flex .Section2 .MBG-2{
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.About-flex .Section2 .MBG-3{
+    background-size: contain;
+    background-position:left bottom;
+    background-repeat: no-repeat;
+}
+
+/* 小標題設定 */
+.About-flex .MembersArea .Title{
+    margin: 10% auto;
+}
+.About-flex .MembersArea .Title h3{
+    color: #fff;
+    font-size: 26px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    text-align: center;
+}
+.About-flex .MembersArea .Title .Line{
+    background-color: #fff;
+    width: 80px;
+    height: 0.5px;
+    margin: 15px auto;
+}
+.About-flex .MembersArea .Title p{
+    color: #C3C3C3;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 3px;
+}
+
+/* 成員規格全設定 */
+.About-flex .MembersArea .Mflex{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.About-flex .MembersArea .M{
+    padding: 0px 100px;
+    width: 210px;
+    margin: 60px 0px;
+}
+.About-flex .MembersArea .M img{
+    width:100%;
+    box-shadow: 0px 0px 10px #fff;
+    border-radius: 100%;
+}
+.About-flex .MembersArea .M h4{
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-align: center;
+    margin: 10px;
+}
+.About-flex .MembersArea .M p{
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+/* 成員規格 單獨設定 */
+.About-flex .MembersArea .Mflex-7{
+    justify-content: center;
+}
+
+.About-flex .Mflex-5{
+    width:100%;
+    flex-wrap: wrap;
+}
+
+/* 底部間距 */
+.About-flex .Section2 .BottomMargin{
+    margin-bottom: 150px;
+}

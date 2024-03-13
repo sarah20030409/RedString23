@@ -1,0 +1,64 @@
+@media (max-width:1140px) {
+    .Info-wrap .Section-1 .InnerInfo3{
+        justify-content: start;
+        margin-left: 10%;
+    }
+}
+
+@media (max-width:600px) {
+    .Info-wrap .ForPadding{
+        
+    }
+    .Info-wrap .Section-1 .InnerInfo3 .ForWidth{
+       margin-bottom: 100px;
+    }
+    .Info-wrap .Section-1 .InnerInfo3 .NumImg{
+        height: 60px;
+        margin-top: -30px;
+    }
+    .Info-wrap .Section-1 .InnerInfo3 h3{
+        font-size: 20px;
+    }
+    .Info-wrap .Section-1 .InnerInfo3 p{
+        font-size: 17px;
+        letter-spacing: 0px;
+        line-height: 28px;
+    }
+
+
+    .Info-wrap .Section-1 .McipBTN a{
+        padding: 13px 45px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width:550px) {
+    .Info-wrap .Section-1 .InnerInfo3 .ForWidth{
+       
+    }
+    .Info-wrap .Section-1 .InnerInfo3{
+        width: 400px;
+        margin-top: 10px;
+       margin-left: 0px;
+    }
+    .Info-wrap .Section-1 .SignUp .Line2{
+        padding-right: 50px;
+    }
+}
+@media (max-width:350px){
+    .Info-wrap .Section-1 .InnerInfo3{
+        width: 350px;
+    }
+    .Info-wrap .Section-1 .InnerInfo3 h3{
+        font-size: 18px;
+    }
+    .Info-wrap .Section-1 .InnerInfo3 p{
+        font-size: 15px;
+        letter-spacing: 0px;
+        line-height: 25px;
+    }
+    
+    .Info-wrap .Section-1 .SignUp .Line2{
+        padding-right: 20px;
+    }
+}

@@ -1,0 +1,132 @@
+.Interview-flex{
+    display: flex;
+    justify-content: center;
+}
+.Interview-wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.ForPadding{
+    position: relative;
+    z-index: 10;
+    height: 50px;
+    background-color: #000;
+    box-shadow:0px 30px 20px #000 ;
+}
+
+/*  ======= 第一段 ======= */
+.Interview-wrap .Section1{
+    margin-top: 50px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.Interview-wrap .ClickHint{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-bottom: 70px;
+    color: #ffffff88;
+    animation: ClickHintAnim 2s infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes ClickHintAnim{
+    0%{
+        color: #fff;
+    }
+    50%{
+        color: #ffffff88;
+    }
+    100%{
+        color: #fff;
+    }
+}
+
+.Interview-wrap .Section1 button{
+    border: none;
+    background-color: #000;
+    color:#fff;
+    margin: 20px 50px;
+}
+
+.Interview-wrap .VisitorList{ 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Interview-wrap .VisitorList .colume01,.Interview-wrap .VisitorList .colume02,.VisitorList .colume03,.VisitorList .colume04{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* 評審講評小標題 */
+.Interview-wrap .dividTitle{
+    padding-top: 7% ;
+    padding-bottom: 2%;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
+
+.Interview-wrap .InnerInfo{
+    border: 1px solid  #ffffff58;
+    padding:30px 0px 30px 0px;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.Interview-wrap .InnerInfo:hover{
+    box-shadow: 0px 0px 20px #fff;
+    transition: 0.4s;
+}
+
+.Interview-wrap .InnerInfo h1{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    text-align: l;
+}
+.Interview-wrap .VisitorList img{
+    width: 350px;
+    margin-top: 30px;
+}
+
+
+
+.Interview-wrap .Section1 .InterviewInfo{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divider_1{
+    margin: 50px auto;
+    background-color: #ffffff80;
+    width: 800px;
+    height: 0.5px;
+}
+
+
+@media (max-width:1000px) {
+    .divider_1{
+        width: 80%;
+    }
+    .intro1-wrap{
+        margin: 0px 10%;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:450px) {
+    .divider_1{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .Interview-wrap .Section1 button{
+        margin: 0px 0px;
+    }
+}

@@ -1,0 +1,47 @@
+@media (max-width:1000px){
+    .intro1-wrap .article_1{
+        display:block;
+    }
+    .intro1-wrap .article_1 h2{
+        margin-top: 30px;
+        width: 50%;
+        font-size: 28px;
+        line-height: 20px;
+    }
+    .intro1-wrap .article_1 img{
+        width: 70%;
+    }
+}
+
+@media (max-width:700px){
+    .intro1-wrap .article_1 h2{
+        width: 50%;
+        font-size: 22px;
+    }
+    .intro1-wrap .article_1 img{
+        width: 80%;
+    }
+    
+    .intro1-wrap .article_wrap h2{
+        width: 100%;
+        font-size: 20px;
+    }
+    .intro1-wrap .article_1{
+        margin: 0px 0px ;
+    }
+}
+
+@media (max-width:450px){
+    .Interview-wrap .InnerInfo{
+        padding: 10px 0px;
+    }
+    .Interview-wrap .Section1 button{
+        transform: scale(0.7);
+        margin: 0px 50px;
+    }
+    
+    .ClickHint{
+        font-size: 12px;
+        letter-spacing: 1px;
+    }
+}

@@ -1,0 +1,128 @@
+/* RWD寫寫 */
+@media (max-width:1200px) {
+    /* ==== Banner ==== */
+    /* 左邊的雲 */
+    .Home-Banner .Cloud-1{
+        width: 60%;
+        margin-top: 40%;
+    }
+    /* 右邊的雲 */
+    .Home-Banner .Cloud-2{
+        width:70%;
+        margin-top: 10%;
+    }
+    /* 浮聲如夢 */
+    .Banner .Title img{
+        width: 20%;
+    }
+    /* =============== */
+
+    /* ==== Section-1 ==== */
+    .Home-wrap .Section-1{
+        margin-top: 100px;
+    }
+    .Home-wrap .Section-1 .infoTitle h2{
+        font-size: 22px;
+    }
+    /* 資訊 */
+    .Home-wrap .Section-1 .NumImg{
+        height: 70px;
+        margin-top:-25px ;
+    }
+    .Home-wrap .Section-1 .Info h3{
+        font-size: 22px;
+    }
+    .Home-wrap .Section-1 .Info p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+     /* =============== */
+
+
+}
+
+@media (max-width:760px) {
+     /* ==== Banner ==== */
+     .Home-Banner .Banner{
+        margin-top:20%;
+        transform: scale(1.2);
+     }
+
+     /* ==== Section-1 ==== */
+     .Home-wrap .Section-1 .DayOne .Info,.Home-wrap .Section-1 .DayTwo .Info{
+        display:block;
+     }
+     .Home-wrap .Section-1 .DayOne .InfoWrap{
+        margin:0px 15px 0px 0px ;
+     }
+     .Home-wrap .Section-1 .GameImg{
+        width: 85%;
+     } 
+     /* 區塊間距 */
+     .Home-wrap .Section-1 .DayOne .ImgFlex{
+        display: flex;
+        justify-content: end;
+        margin-top: 10%;
+     }
+     .Home-wrap .Section-1 .DayTwo .ImgFlex{
+        margin: 10% 0px 15% 0px;
+     }
+     .Home-wrap .Section-1 .DayTwo{
+        margin-bottom: 150px;
+     }
+     .Home-wrap .Section-1 .LinkToInfo ul{
+        transform: scale(0.9);
+     }
+     .Home-wrap .Section-1 .LinkToInfo .background{
+        height: 250px;
+     }
+
+}
+
+
+@media (max-width:450px) {
+    /* ==== Banner ==== */
+    .Home-Banner .Banner{
+        margin-top:35%;
+        transform: scale(1.5);
+    }
+    /* 浮生如夢 */
+    .Home-wrap .Banner .Title img{
+        width: 20%;
+        margin-top: -15%;
+    }
+    .Home-Banner .Cloud-1{
+        margin-top: 150px;
+        width: 90%;
+    }
+    .Home-Banner .Cloud-2{
+        margin-top: -30px;
+        width: 90%;
+    }
+     /* =============== */
+
+     /* ==== Section-1 ==== */
+     .Home-wrap .Section-1 .infoTitle h2{
+        font-size: 18px;
+     }
+     .Home-wrap .Section-1 .infoTitle{
+        margin-top: 50%;
+     }
+     .Home-wrap .Section-1 .GameImg{
+        width: 90%;
+     } 
+     .Section-1 .DayOne .InfoWrap,.Section-1 .DayTwo .InfoWrap{
+        transform: scale(0.8);
+        margin: 10px;
+     }
+     .Home-wrap .Section-1 .DayOne,.Home-wrap .Section-1 .DayTwo{
+        margin-bottom: 80px;
+     }
+     .Home-wrap .Section-1 .NumImg{
+        height: 70%;
+     }
+     .Home-wrap .LinkToInfo .BTN{
+        padding: 15px 40px;
+        font-size: 18px;
+     }
+}

@@ -1,0 +1,108 @@
+.Sponsor-Wrap{
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Section-1 */
+.Sponsor-Wrap .Section-1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.Sponsor-Wrap .Section-1 .BG-2{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 bottom;
+    padding: 0px 7% 0px 7%;
+}
+
+.Sponsor-Wrap .Section-1 .SponsorsList ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Sponsor-Wrap .Section-1 .Sponsor_Item{
+    margin: 20px 35px 80px 35px;
+}
+.Sponsor-Wrap .Section-1 .Sponsor_Item img{
+    width: 200px;
+    margin-bottom: 15px;
+    box-shadow: 0px 0px 10px #fff;
+    border-radius: 100%;
+}
+
+.Sponsor-Wrap .Section-1 .Sponsor_Item p{
+    text-align: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.Sponsor-Wrap .Section-1 .divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px 70px 0px;
+}
+.Sponsor-Wrap .Section-1 .divider .Line{
+    background-color: #ffffffb2;
+    width: 70%;
+    height: 0.5px;
+}
+.Sponsor-Wrap .Section-1 .divider h2{
+    width:180px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffffb2;
+    letter-spacing: 5px;
+}
+/* RWD */
+@media (max-width:1300px) {
+    .Sponsor-Wrap .Section-1 .Sponsor_Item img{
+        width: 180px;
+    }
+    .Sponsor-Wrap .Section-1 .Sponsor_Item{
+        margin: 20px 20px 80px 20px;
+    }
+}
+@media (max-width:1025px) {
+    .Sponsor-Wrap .Section-1{
+        margin-top: 20px;
+    }
+    .Sponsor-Wrap .Section-1 .Sponsor_Item img{
+        width: 170px;
+    }
+    .Sponsor-Wrap .Section-1 .Sponsor_Item{
+        margin: 20px 20px 30px 20px;
+    }
+}
+@media (max-width:750px) {
+    .Sponsor-Wrap .Section-1 .Sponsor_Item{
+        margin: 20px 5% 30px 5%;
+    }
+}
+@media (max-width:598px) {
+    .Sponsor-Wrap .Section-1 .Sponsor_Item img{
+        width: 130px;
+        margin-bottom: 10px;
+    }
+    .Sponsor-Wrap .Section-1 .Sponsor_Item p{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:378px) {
+    .Sponsor-Wrap .Section-1 .Sponsor_Item{
+        margin: 20px 3% 30px 3%;
+    }
+    .Sponsor-Wrap .Section-1 .Sponsor_Item img{
+        width: 110px;
+        margin-bottom: 10px;
+    }
+    .Sponsor-Wrap .Section-1 .Sponsor_Item p{
+        font-size: 14px;
+        letter-spacing: 0px;
+    }
+}

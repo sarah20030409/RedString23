@@ -1,0 +1,101 @@
+.Header-Height{
+    height: 50px;
+}
+/* 固定上方的header */
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+/* 最外面的包層做padding */
+header .wrap{
+    background-color: #fff;
+    padding: 0px 10%;
+}
+
+header .navbar{
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .Logo img{
+    width: 72px;
+}
+
+/* 選單樣式編寫 */
+header .navbar-list{
+    width:350px;
+}
+header .navbar-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .navbar .CL-item{
+    font-weight: 800;
+    color: #000;
+    text-decoration: none;
+    margin: 5px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+header .navbar .CL-item:hover{
+    color: #777777;
+    transition: 0.3s;
+}
+
+
+/* ===========RWD===========*/
+
+/* 手機 */
+@media (max-width:550px) {
+    /* Logo調整 */
+    header .Logo img{
+        width: 40px;
+    }
+
+    /* nav文字手機挑整 */
+    header .navbar-list{
+        width: 280px;
+    }
+    
+    header .navbar .CL-item{
+        margin: 2px;
+        font-size: 12px;
+    }
+}
+
+/* 小小手機 */
+@media (max-width:400px) {
+    header .Logo img{
+        width: 30px;
+    }
+
+    /* nav文字小小手機挑整 */
+    header .navbar-list{
+        width: 240px;
+    }
+    header .navbar .CL-item{
+        font-size: 12px;
+    }
+}
+
+@media (max-width:340px){
+    header .wrap{
+        padding: 0px 5%;
+    }
+    
+    header .navbar-list{
+        width:220px;
+    }
+    header .navbar .CL-item{
+        font-size: 12px;
+        margin: 0px 3px;
+    }
+}

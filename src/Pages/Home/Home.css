@@ -1,0 +1,190 @@
+.Home-flex{
+    display: flex;
+    overflow: hidden;
+}
+.Home-wrap{
+    width: 100%;
+}
+/* ======= Banner section ======= */
+.Home-Banner .Banner {
+}
+
+.Home-Banner .Banner .MainImg{
+    width: 100%;
+}
+
+.Home-Banner .Bottom-Cloud{
+    height: 0px;
+    width: 100%;
+}
+
+/* 左邊的雲 */
+.Home-Banner .Cloud-1{
+    position: absolute;
+    width: 80%;
+    margin-top: 550px;
+    left: 0;
+    animation:cloudScale 30s infinite;
+    animation-iteration-count:infinite;/* 循環播放 */
+}
+
+/* 右邊的雲 */
+.Home-Banner .Cloud-2{
+    position: absolute;
+    width:80%;
+    margin-top: 80px;
+    right: 0;
+    transform-origin: bottom right;
+    /* transform-origin調整放大中心點，往右長會超出 */
+    animation:cloudScale 30s infinite;
+    animation-iteration-count:infinite;/* 循環播放 */
+}
+
+/* 雲的動畫 */
+@keyframes cloudScale{
+    0%{
+        opacity: 0.4;
+        transform: scale(1);
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+        transform: scale(1.1);
+    }
+    100%{
+        opacity: 0.4;
+        transform: scale(1);
+    }
+}
+
+/* 主視覺調整 */
+.Banner .LogoImg{
+    overflow: hidden;
+}
+
+.Banner .LogoImg img{
+    width: 100%;
+    animation: LogoAnim 20s infinite;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+/* Logo的動畫 */
+@keyframes LogoAnim{
+    0%{
+        opacity: 0.2;
+        transform: scale(1);
+    }
+    20%{
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.04);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 浮聲如夢 */
+.Banner .Title .TitleImgCenter{
+    display: flex;
+    justify-content: center;
+}
+.Banner .Title img{
+    margin-top: -20%;
+    width: 200px;
+    height: 100%;
+    animation: LogoAnim 20s infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+
+/* ======= section 1 ======= */
+.Home-wrap .Section-1{
+    margin-top: 10px;
+    background-color: #000;
+}
+
+/* 小標設定 */
+.Section-1 .infoTitle h2{
+    font-size: 26px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.Section-1 .infoTitle .bottomLine{
+    width: 80px;
+    height: 0.5px;
+    background-color: #fff;
+    margin: 17px auto;
+}
+
+
+/* --- 切版 --- */
+.Section-1 .DayOne .Info,.Section-1 .DayTwo .Info{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 背景煙霧調整 */
+.Section-1 .background{
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.Section-1 .DayTwo .background{
+    background-position: right bottom !important;
+}
+
+
+/* --- 圖文設定集合 --- */
+/* 圖 */
+.Section-1 .GameImg{
+    width: 100%;
+}
+
+
+/* 按鈕寫寫 */
+.Home-wrap .LinkToInfo .background{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:400px;
+    padding-top:30px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+.Home-wrap .LinkToInfo ul{
+    display: flex;
+    justify-content: center;
+}
+.Home-wrap .LinkToInfo .BTN{
+    text-decoration: none;
+    font-size: 20px;
+    border: 0.5px solid #fff;
+    padding: 17px 60px;
+    border-radius: 50px;
+    background-color: #000;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+.Home-wrap .LinkToInfo .BTN:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.8s;
+}
+
+/* ======= section 2 ======= */
+.Home-wrap .Section-2{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.Home-wrap .Section-2 iframe{
+    width: 100%;
+}

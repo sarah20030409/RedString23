@@ -1,0 +1,76 @@
+.intro1-flex{
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: contain;
+}
+.intro1-flex .BG_Img2{
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.intro1-wrap{
+    margin: 0px 15%;
+    flex-wrap: wrap;
+}
+
+/* 採訪全設定 */
+.intro1-wrap .article{
+    margin: 50px 0px;
+}
+
+.intro1-wrap .article img{
+    border-radius: 10px;
+}
+.intro1-wrap .article h2{
+    text-align: left;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 32px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 15px #ffffffe1;
+}
+.intro1-wrap .article p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-shadow: 0px 0px 10px #ffffff;
+    margin-bottom: 20px;
+}
+
+/* 個別調整 */
+.intro1-wrap .article_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.intro1-wrap .article_1 img{
+    width: 40%;
+}
+.intro1-wrap .article_1 h2{
+    width: 55%;
+    font-size: 30px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.intro1 .intro1-wrap .article_7,.intro2 .intro1-wrap .article_4{
+    display: flex;
+    justify-content: center;
+}
+.intro1-wrap .article_7 img,.intro1-wrap .article_4 img{
+    width: 45%;
+    margin: 0px 10px;
+}
+.Interview-wrap .interviewer p{
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-shadow: 0px 0px 10px #ffffff;
+    margin-bottom: 20px;
+}
+.Interview-wrap .date p{
+    text-align: right;
+}
+

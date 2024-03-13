@@ -1,0 +1,64 @@
+.Info-wrap{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+.Info-flex{
+    width: 100%;
+}
+
+/* ======= 排版樣式編寫 ======= */
+.Info-wrap .Section-1 .BackgroundContent{
+    margin-bottom: 150px;
+}
+.Info-wrap .Section-1 .InfoBG-1{
+    background-position:0% -20px;
+    background-size: 70%;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.Info-wrap .Section-1 .InfoBG-2{
+    display: flex;
+    justify-content: center;
+    background-position: 100% 200px;
+    background-size: 50%;
+    background-repeat: no-repeat;
+    /* background-attachment:fixed; */
+}
+.Info-wrap .Section-1 .InnerInfo3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20% 0  0; /*條上下間距的*/
+}
+
+.Info-wrap .Section-1 .ForWidth{
+    margin:0px 50px 150px 50px;
+    width: 470px;
+}
+.Info-wrap .Section-1 .SignUp{
+    width: 520px;
+}
+
+/* ======= 按鈕樣式 ======= */
+.Info-flex .Section-1 .McipBTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Info-wrap .Section-1 .McipBTN a{
+    text-decoration: none;
+    font-size: 20px;
+    border: 0.5px solid #fff;
+    padding: 17px 60px;
+    border-radius: 50px;
+    background-color: #000;
+    transition: 0.5s;
+    letter-spacing: 4px;
+}
+.Info-wrap .Section-1 .McipBTN a:hover{
+    background-color: #fff;
+    color: #000;
+    transition: 0.8s;
+}

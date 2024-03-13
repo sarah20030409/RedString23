@@ -1,0 +1,131 @@
+body p::selection,h2::selection,span::selection,h4::selection,h3::selection,br::selection,a::selection,img::selection{
+    /* background-color:rgb(153, 0, 13); */
+    background-color: #fff;
+    color: #000;
+}
+/* ======= Banner ====== */
+.BannerIMG .BGimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20% 0px;
+    
+    animation: BannerAnim 15s infinite;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+.BannerIMG .TitleImg{
+    display: flex;
+    justify-content: center;
+}
+.BannerIMG .TitleImg img{
+    width: 30%;
+}
+
+
+/* Banner的動畫 */
+@keyframes BannerAnim{
+    0%{
+        opacity: 0.3;
+        transform: scale(1);
+    }
+    20%{
+        opacity: 1;
+    }
+    50%{
+        transform: scale(1.04);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 額外調整 */
+/* .Info-wrap .infoTitleImg img{
+    width: 30%;
+} 
+.Sponsor-Wrap .SponsorTitleImg img {
+    width: 22%;
+}
+*/
+
+
+
+/* ====== 比賽資訊調整 ====== */
+
+/* 資訊 */
+.SectionInfo .InfoWrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.SectionInfo .NumImg{
+    position: absolute;
+    z-index: 1;
+    margin-top: -50px;
+    height: 98px;
+}
+.SectionInfo .GameInfo{
+    position: relative;
+    z-index: 10;
+}
+.SectionInfo .GameInfo h3{
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+.SectionInfo .GameInfo p{
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+/* --- 其餘調整 --- */
+.SectionInfo .DayOne{
+    margin-top: 80px;
+    margin-bottom: 150px;
+}
+.SectionInfo .DayTwo{
+    margin-bottom: 200px;
+}
+
+/* 標題前的裝飾線條 */
+.SectionInfo .GameInfo .Line1 ,.SectionInfo .GameInfo .Line2{
+    display: flex;
+    align-items: center;
+}
+.SectionInfo .GameInfo .Line{
+    width: 60px;
+    height: 0.5px;
+    background-color: #fff;
+    margin: 0px 10px;
+}
+
+
+/* ======== RWD ======== */
+@media (max-width:1050px) {
+    .BannerIMG .BGimg{
+        padding: 40% 0px;
+    }
+}
+
+@media (max-width:700px) {
+    .BannerIMG .BGimg{
+        padding: 50% 0px;
+    }
+    
+}
+@media (max-width:550px){
+    .BannerIMG .BGimg{
+        background-size:350%;
+    } 
+    .BannerIMG .TitleImg img{
+        width: 40%;
+    }
+}
